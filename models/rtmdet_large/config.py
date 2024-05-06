@@ -59,20 +59,3 @@ model = dict(
         nms=dict(type='nms', iou_threshold=0.65),
         max_per_img=300),
 )
-
-
-# test_pipeline = [
-#     dict(type='LoadImageFromFile', backend_args={{_base_.backend_args}}),
-#     dict(type='Resize', scale=(1333, 800), keep_ratio=True),
-#     dict(type='Pad', size=(1333, 800), pad_val=dict(img=(114, 114, 114))),
-#     dict(type='LoadAnnotations', with_bbox=True),
-#     dict(
-#         type='PackDetInputs',
-#         meta_keys=('img_id', 'img_path', 'ori_shape', 'img_shape',
-#                    'scale_factor'))
-# ]
-
-
-# val_dataloader = dict(
-#     dataset=dict(pipeline=test_pipeline))
-# test_dataloader = val_dataloader
