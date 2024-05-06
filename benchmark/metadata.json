@@ -1,0 +1,132 @@
+{
+    "faster_rcnn": [
+        {
+            "name": "faster_rcnn_r50_fpn_orig",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_mstrain_3x_coco/faster_rcnn_r50_fpn_mstrain_3x_coco_20210524_110822-e10bd31c.pth",
+            "img_size": [
+                1333,
+                800
+            ],
+            "box_AP": 38.4,
+            "multiscale": false
+        },
+        {
+            "name": "faster_rcnn_r50_fpn_tnr",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/faster_rcnn/faster_rcnn_r50_fpn_mstrain_3x_coco/faster_rcnn_r50_fpn_mstrain_3x_coco_20210524_110822-e10bd31c.pth",
+            "img_size": [
+                1333,
+                800
+            ],
+            "box_AP": 40.2,
+            "multiscale": false
+        }
+    ],
+    "retinanet": [
+        {
+            "name": "retinanet_r50_fpn",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/retinanet/retinanet_r50_fpn_mstrain_3x_coco/retinanet_r50_fpn_mstrain_3x_coco_20210718_220633-88476508.pth",
+            "box_AP": 39.5,
+            "img_size": [
+                1333,
+                800
+            ],
+            "multiscale": true
+        },
+        {
+            "name": "retinanet_x101_fpn",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/retinanet/retinanet_x101_64x4d_fpn_mstrain_3x_coco/retinanet_x101_64x4d_fpn_mstrain_3x_coco_20210719_051838-022c2187.pth",
+            "box_AP": 41.6,
+            "img_size": [
+                1333,
+                800
+            ],
+            "multiscale": true
+        }
+    ],
+    "detr": [
+        {
+            "name": "detr_r50",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v3.0/detr/detr_r50_8xb2-150e_coco/detr_r50_8xb2-150e_coco_20221023_153551-436d03e8.pth",
+            "box_AP": 39.9,
+            "img_size": [
+                1333,
+                800
+            ],
+            "multiscale": true
+        },
+        {
+            "name":"dab_detr_r50",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v3.0/dab_detr/dab-detr_r50_8xb2-50e_coco/dab-detr_r50_8xb2-50e_coco_20221122_120837-c1035c8c.pth",
+            "box_AP": 42.3,
+            "img_size": [
+                1333,
+                800
+            ],
+            "multiscale": true
+        }
+    ],
+    "yolox": [
+        {
+            "name": "yolox_tiny",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/yolox/yolox_tiny_8x8_300e_coco/yolox_tiny_8x8_300e_coco_20211124_171234-b4047906.pth",
+            "box_AP": 32.0,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": true
+        },
+        {
+            "name": "yolox_small",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/yolox/yolox_s_8x8_300e_coco/yolox_s_8x8_300e_coco_20211121_095711-4592a793.pth",
+            "box_AP": 40.5,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": true
+        },
+        {
+            "name": "yolox_large",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v2.0/yolox/yolox_l_8x8_300e_coco/yolox_l_8x8_300e_coco_20211126_140236-d3bd2b23.pth",
+            "box_AP": 49.4,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": true
+        }
+    ],
+    "rtmdet":[
+        {
+            "name": "rtmdet_small",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_s_8xb32-300e_coco/rtmdet_s_8xb32-300e_coco_20220905_161602-387a891e.pth",
+            "box_AP": 44.6,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": false
+        },
+        {
+            "name": "rtmdet_medium",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_m_8xb32-300e_coco/rtmdet_m_8xb32-300e_coco_20220719_112220-229f527c.pth",
+            "box_AP": 49.4,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": false
+        },
+        {
+            "name": "rtmdet_large",
+            "checkpoint": "https://download.openmmlab.com/mmdetection/v3.0/rtmdet/rtmdet_l_8xb32-300e_coco/rtmdet_l_8xb32-300e_coco_20220719_112030-5a0be7c4.pth",
+            "box_AP": 51.5,
+            "img_size": [
+                640,
+                640
+            ],
+            "multiscale": false
+        }
+    ]
+}
